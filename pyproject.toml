@@ -1,10 +1,15 @@
 [project]
-name = "working-with-anthropic-api"
+name = "working-with-claude-api"
 version = "0.1.0"
-description = "Es mi primer proyecto con Python, para experimentar con la API de Claude"
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "anthropic>=0.116.0",
     "python-dotenv>=1.2.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
 ]
